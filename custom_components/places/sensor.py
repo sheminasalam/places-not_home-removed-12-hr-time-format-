@@ -710,7 +710,7 @@ class Places(Entity):
                 new_state = devicetracker_zone
                 _LOGGER.debug( "(" + self._name + ") New State from DeviceTracker set to: " + new_state)
 
-            current_time = "%02d:%02d" % (now.hour, now.minute)
+            current_time = now.strftime("%I:%M:%p")
             
             if previous_state != new_state:
                 _LOGGER.info( "(" + self._name + ") New state built using options: " + self._options)
