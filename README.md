@@ -1,4 +1,4 @@
-# places (not_home disappeared and 12 hour time format in states )
+# places (not_home disappeared and 12 hour time format in states and just place_name when place is the display option )
 
 
 [![GitHub Release][releases-shield]][releases]
